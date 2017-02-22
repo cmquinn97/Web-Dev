@@ -1,0 +1,330 @@
+html p, h1, h2, h3, h4, a {
+  font-family: "Aldrich";
+}
+
+li {
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+/*Container*/
+
+.container {
+  width: 100%;
+}
+
+.row, .text, #navbar, .bgc-title, .breadcrumb {
+  margin: auto;
+}
+
+
+/*NavBar*/
+
+.navbar-right {
+  margin-top: 1em;
+}
+
+.navbar-right li {
+  float: left;
+  color: white;
+  list-style: none;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.navbar-right li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-right li a:hover, #label:hover, #active {
+  color: gray;
+}
+
+#active {
+  border-bottom: pink;
+}
+
+#label {
+  color: white;
+}
+
+
+/*Jumbotron*/
+
+.title-head {
+  padding-top: 1.5em;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  background: url(../hawaii2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button:hover {
+  text-decoration: none;
+  color: black;
+  background-color: gray;
+}
+
+.ghost-button:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.container h2 {
+  margin-top: 1em;
+}
+
+.row h2, .row p {
+  color: white;
+}
+
+.btn-default {
+  position: absolute;
+  bottom: 0;
+}
+
+
+/*About Me*/
+
+.bio {
+  width: 100%;
+  background-color: #808080;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.bio-p {
+  text-align: center;
+  font-size: 120%;
+}
+
+.bio h2 {
+  padding-top: 1em;
+  margin-top: 0;
+}
+
+.bio-p-bottom {
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+
+/*Projects*/
+
+.projectsDiv {
+  text-align: center;
+  background-color: #A9A9A9;
+}
+
+.breadcrumb {
+  background-color: #A9A9A9;
+}
+
+.breadcrumb a {
+  color: black;
+}
+
+.projects {
+  text-align: center;
+}
+
+.projects-header h1 {
+  padding-top: 1em;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+#html .title {
+  border-bottom: 2px dashed green;
+}
+
+.site {
+  width: 280px;
+  height: 180px display: block;
+}
+
+.hovereffect {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect {
+  width: 20%;
+  overflow: hidden;
+  top: 0;
+}
+
+.hovereffect img {
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#Java .title {
+  border-bottom: 2px dashed #926239;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.java-col, .py-col {
+  width: 280px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.col-sm-6 {
+  float: none;
+}
+
+.img-thumbnail {
+  margin: 5px;
+  width: 280px;
+  height: 180px;
+}
+
+
+/*Python*/
+
+#Python .title {
+  border-bottom: 2px dashed blue;
+}
+
+.daily {
+  padding-top: 1em;
+}
+
+.py-daily {
+  width: 280px;
+  height: 180px;
+}
+
+.coming-soon {
+  width: 280px;
+  height: 180px;
+}
+
+
+/*Javascript*/
+
+#javascript .title {
+  border-bottom: 2px dashed red;
+}
+
+#html li a {
+  color: green;
+}
+
+#Java li a, #Java a {
+  color: #926239;
+}
+
+#Python li a, #Python a {
+  color: blue;
+}
+
+#javascript li a {
+  color: red;
+}
+
+ul {
+  padding: 0;
+}
+
+.resources {
+  bottom: 0;
+}
+
+
+/*Contact*/
+
+.contact {
+  padding: 0;
+  margin: 0;
+  background-color: #D3D3D3;
+}
+
+.contact2 h2 {
+  padding-top: 1em;
+  margin-top: 0;
+}
+
+.contact2 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.form {
+  margin: auto;
+  display: none;
+  text-align: center;
+  padding-bottom: 1em;
+  width: 70%;
+}
+
+#email {
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 2em;
+}
+
+
+/*Footer*/
+
+footer {
+  background-color: white;
+}
+
+footer p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 647px) {
+  img-thumbnail{
+
+  }
+}

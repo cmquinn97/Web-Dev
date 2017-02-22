@@ -1,0 +1,36 @@
+/*NavBar*/
+.navbar-right{
+  margin-top: 1em;
+}
+.navbar-right li{
+  float:left;
+  color:white;
+  list-style: none;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.navbar-right li a{
+  text-decoration: none;
+  color:white;
+}
+.navbar-right li a:hover{
+  color:gray;
+}
+
+/*Jumbotron*/
+.jumbotron{
+  height:1000px;
+  background: url(../Hawaii-Sunset-min.jpg);
+  background-size: 2000px 1186px;
+  background-repeat: no-repeat;
+}
+.main-bt{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }

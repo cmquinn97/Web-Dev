@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Portfolio Home Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/customHome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/photography.css">
+
+    <!--Font-->
+    <link href='//fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="navbar-right">
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="./../../index.html/#projectsDiv">Projects</a></li>
+            <li><a id="active" href="#">Photography</a></li>
+            <li><a href="./../../index.html/#contact">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <header>
+      <div class="header">
+        <h1>Photography</h1>
+      </div>
+    </header>
+
+    <div class="gallery" align="center">
+      <h3>Hawaii</h3>
+      <div class="thumbnails">
+      	<img onmouseover="getElementById('preview').src=getElementById('img1').src" id="img1" src="../hawaii1.jpg" alt="" />
+      	<img onmouseover="getElementById('preview').src=getElementById('img2').src" id="img2" src="../hawaii2.jpg" alt="" />
+      	<img onmouseover="getElementById('preview').src=getElementById('img3').src" id="img3" src="../hawaii3.jpg" alt="" />
+      	<img onmouseover="getElementById('preview').src=getElementById('img4').src" id="img4" src="../hawaii4.jpg" alt="" />
+      	<img onmouseover="getElementById('preview').src=getElementById('img5').src" id="img5" src="../hawaii5.jpg" alt="" />
+      </div>
+      <div class="preview" align="center">
+	       <img id="preview" src="../hawaii1.jpg" alt="" />
+       </div>
+     </div> <!-- Close the gallery div -->
+     <div class="gallery" align="center">
+       <h3>My Dogs</h3>
+       <div class="thumbnails">
+       	<img onmouseover="getElementById('preview2').src=getElementById('img11').src" id="img11" src="../dog1.jpg" alt="" />
+       	<img onmouseover="getElementById('preview2').src=getElementById('img22').src" id="img22" src="../dog2.jpg" alt="" />
+       	<img onmouseover="getElementById('preview2').src=getElementById('img33').src" id="img33" src="../dog3.jpg" alt="" />
+       </div>
+       <div class="preview2" align="center">
+ 	       <img id="preview2" src="../dog1.jpg" alt="" height="889"/>
+        </div>
+      </div> <!-- Close the gallery div -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+    </div>
+  </html>
