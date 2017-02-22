@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Player Stats</title>
+ 
+		<link rel="stylesheet" href="styles/stats1.css" type="text/css" />
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		  $( function() {
+			$( "#accordion" ).accordion();
+		  } );
+		</script>
+		<script>
+		  $( function() {
+			$( "#accordion2" ).accordion();
+		  } );
+		</script>
+	</head>
+ 
+	<body>
+		<header>
+			<a href="./Home.html"><img id="banner" src="./Banner2.png"/ width="900px"></a>
+			<nav class="nav_menu clearfix">
+				<ul>
+					<li><a href="#" id="current">Stats</a>
+						<ul>
+							<li><a href="./Stats1.html">Player Stats</a></li>
+							<li><a href="./subpages/stats2.html">Team Stats</a></li>
+						</ul>
+					</li>
+					<li><a href="./Home.html">Home</a></li>
+					<li><a href="./highlights1.html">Highlights</a>
+						<ul>
+							<li><a href="./Highlights1.html">Fill In</a></li>
+							<li><a href="./subpages/Highlights2.html">Fill In2</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	
+		<main>
+			<aside id="left">
+				<div id="logo">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/741px-Miami_Heat_logo.svg.png" width="100" height="150">
+				</div>
+				<div class="news">
+					<h2 class="newsHead">News</h2>
+					<div class="vertical2">
+						<p><a href="http://www.rollingstone.com/sports/news/miami-heat-fans-give-dwyane-wade-standing-ovation-w449876">Dwyane Wade returns to Miami</a></p>
+					</div>
+				</div>
+			</aside>
+			
+			<section class="mainSec">
+				<div id="playerStats">	
+						<h2>Current Player Stats</h2>
+								<div id="accordion">
+									<h3><a href="#">Hassan Whiteside</a></h3>
+										<div>PTS:17.6 &nbsp; REB:16.0 &nbsp; BLK:2.7</div>
+									<h3><a href="#">Justise Winslow</a></h3>
+										<div>PTS:11.6 &nbsp; REB:4.7 &nbsp; AST: 3.9</div>
+									<h3><a href="#">Josh Richardson</a></h3>
+										<div>PTS:11.4 &nbsp; REB:2.4 &nbsp; AST: 1.6</div>
+									<h3><a href="#">Goran Dragic</a></h3>
+										<div>PTS:16.3 &nbsp; REB:4.1 &nbsp; AST: 5.6</div>
+									<h3><a href="#">Dion Waiters</a></h3>
+										<div>PTS:12.5 &nbsp; REB:3.4 &nbsp; AST: 3.5</div>
+								</div>
+				</div>
+				<div id="notablePlayerStats">
+					<h2>Notable Player Stats</h2>
+						<div id="accordion2">
+							<h3><a href="#">Dwyane Wade</a></h3>
+								<div>PTS:30.2 &nbsp; REB:5.0 &nbsp; AST: 7.5</div>
+							<h3><a href="#">LeBron James</a></h3>
+								<div>PTS:27.1 &nbsp; REB:7.9 &nbsp; AST: 6.2</div>
+							<h3><a href="#">Tim Hardaway</a></h3>
+								<div>PTS:20.3 &nbsp; REB:3.4 &nbsp; AST: 8.6</div>
+							<h3><a href="#">Alonzo Mourning</a></h3>
+								<div>PTS:21.7 &nbsp; REB:9.5 &nbsp; BLK: 3.7</div>
+							<h3><a href="#">Shaquille O'Neal</a></h3>
+								<div>PTS:22.9 &nbsp; REB:10.4 &nbsp; BLK: 2.3</div>
+						</div>
+				</div>
+				<div id="allTimeStats">
+					<h2>All Time Leaders</h2>
+					<div id="allTimePlayer">
+						<h3>All Time Leaders</h3>
+							<ul>
+								<li>Games Played: Dwyane Wade</li>
+								<li>Points Scored: Dwyane Wade</li>
+								<li>Assists: Dwyane Wade</li>
+								<li>Rebounds: Udonis Haslem</li>
+								<li>3-Pt Made: Tim Hardaway</li>
+								<li>Steals: Dwyane Wade</li>
+								<li>Blocks: Dwyane Wade</li>
+								<li>Field Goals: Dwyane Wade</li>
+							</ul>
+					</div>
+					<div id="singleGamePlayer">
+						<h3>Single Game Leaders</h3>
+							<ul>
+								<li>Points: LeBron James</li>
+								<li>Minutes Played: Glen Rice</li>
+								<li>Rebounds: Rony Seikaly</li>
+								<li>Assits: Tim Hardaway</li>
+								<li>Steals: Mario Chalmers</li>
+								<li>Blocks: Hassan Whiteside</li>
+								<li>Field Goals: LeBron James</li>
+								<li>Free Throws: Dwyane Wade</li>
+							</ul>
+					</div>
+				</div>
+			</section>
+			
+			<aside id="right">	
+				<div id="logo2">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/741px-Miami_Heat_logo.svg.png" width="100" height="150">
+				</div>
+				<div class="awards">
+					<h2 class="awardHead">Awards</h2>
+					<div class="vertical">
+						<p>2006 NBA Champions<br>2012 NBA Champions<br>2013 NBA Champions</p>
+					</div>
+				</div>
+			</aside>
+		</main>
+		
+		<section>
+			<div></div>
+		</section>
+		<footer>
+			<p>Sources: https://en.wikipedia.org/wiki/History_of_the_Miami_Heat , https://upload.wikimedia.org , http://images.firstcovers.com/</p>
+			<p>Banner: https://s-media-cache-ak0.pinimg.com</p>
+			<p><a href="./subpages/FAQ.html">Frequently Asked Questions</a><p>
+		</footer>	
+		
+	</body>
+</html>
